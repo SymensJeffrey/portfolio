@@ -4,23 +4,19 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
+  ruby,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
   carrent,
   jobit,
   tripguide,
-  threejs,
   pace,
-  ffc
+  ffc,
+  vue
 } from "../assets";
 
 
@@ -72,20 +68,12 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Ruby",
+    icon: ruby,
   },
   {
     name: "Node JS",
@@ -96,21 +84,13 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+    name: "vue",
+    icon: vue,
+  }
 ];
 
 const experiences = [
