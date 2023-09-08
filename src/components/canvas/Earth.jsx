@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import { Suspense } from "react"
 import { Canvas } from "@react-three/fiber"
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei"
@@ -13,7 +14,6 @@ const Earth = () => {
       scale={2.5}
       position-y={0}
       rotation-y={0}
-
     />
   )
 }
@@ -39,6 +39,8 @@ const EarthCanvas = () => {
           minPolarAngle={Math.PI / 2}
         />
         <Earth />
+
+        <Preload all />
       </Suspense>
     </Canvas>
   )
