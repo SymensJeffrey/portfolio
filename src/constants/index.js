@@ -11,9 +11,8 @@ import {
   nodejs,
   mongodb,
   git,
-  carrent,
-  jobit,
-  tripguide,
+  scoreboard,
+  dashboard,
   pace,
   ffc,
   vue
@@ -149,68 +148,35 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Golf Scoreboard",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Designed and developed a dynamic golf scoreboard app enabling users to effortlessly organize tournaments, manage scorecards, and view real-time leaderboards for an enhanced golfing experience.",
+    tags: [
+      {
+        name: "rubyOnRails",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "vueJS",
+        color: "green-text-gradient",
+      }
+    ],
+    image: scoreboard,
+    source_code_link: "https://github.com/SymensJeffrey/golf_api",
+  },
+  {
+    name: "Dashboard",
+    description:
+      "Crafted a modern, multifaceted dashboard featuring three pages, four interactive applications, and seven comprehensive charts for a data-driven and user-friendly experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+    image: dashboard,
+    source_code_link: "https://github.com/SymensJeffrey/dashboard",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

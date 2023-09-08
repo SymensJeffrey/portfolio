@@ -20,9 +20,8 @@ import vue from "./tech/vue.png";
 import pace from "./company/pace.png";
 import ffc from "./company/ffc.jpeg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import dashboard from "./dashboard.png";
+import scoreboard from "./scoreboard.png";
 
 export {
   logo,
@@ -40,11 +39,10 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  carrent,
-  jobit,
-  tripguide,
+  dashboard,
   pace,
   ffc,
   ruby,
-  vue
+  vue,
+  scoreboard
 };
