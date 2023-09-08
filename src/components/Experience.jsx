@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react-refresh/only-export-components */
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component"
 import { motion } from "framer-motion"
 
