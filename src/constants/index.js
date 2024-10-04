@@ -13,7 +13,8 @@ import {
   dashboard,
   pace,
   ffc,
-  vue
+  vue,
+  selkirk
 } from "../assets";
 
 
@@ -85,13 +86,25 @@ const technologies = [
 const experiences = [
   {
     title: "Full Stack Developer",
+    company_name: "Selkirk Sport",
+    icon: selkirk,
+    iconBg: "#fff",
+    date: "Febuary 2024 - Present",
+    points: [
+      "Developed and implemented innovative internal tools for business users to leverage to improve productivity throughout various departments",
+      "Collaborated with business users to identify areas of improvement, develop process diagrams, and help onboard users to the internal tools",
+      "Created custom automations to sync marketing data between systems saving 20 hours a month"
+    ],
+  },
+  {
+    title: "Full Stack Developer",
     company_name: "Foundation Finance",
     icon: ffc,
     iconBg: "#fff",
-    date: "October 2021 - Present",
+    date: "October 2021 - Febuary 2024",
     points: [
-      "Developed and implemented innovative features for a web app, resulting in a 30% increase in loan applications submitted by dealers.",
-      "Collaborated with cross-functional teams to design and implement secure authentication and authorization protocols for the web services, reducing security vulnerabilities by 40%.",
+      "Developed and implemented innovative features for a web app, resulting in a 30% increase in loan applications submitted by dealers",
+      "Teamed up with cross-functional colleagues to enhance existing support for the web application, successfully reducing bugs reported by a substantial 30%.",
       "Joined forces with different departments to gather requirements and design user-friendly interfaces for the web services, resulting in a 20% increase in user satisfaction."
     ],
   },

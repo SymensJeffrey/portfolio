@@ -19,6 +19,7 @@ import vue from "./tech/vue.png";
 
 import pace from "./company/pace.png";
 import ffc from "./company/ffc.jpeg";
+import selkirk from "./company/selkirk.jpeg"
 
 import dashboard from "./dashboard.png";
 import scoreboard from "./scoreboard.png";
@@ -44,5 +45,6 @@ export {
   ffc,
   ruby,
   vue,
-  scoreboard
+  scoreboard,
+  selkirk
 };
